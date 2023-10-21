@@ -1,0 +1,28 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY PAGE</title>
+    <link rel="stylesheet" href="style.css/styl.css">
+</head>
+<body>
+    <h2>GALLERY</h2>
+    <img src="{% static 'image/mb.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/hgc.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/jbn.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/dsw.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/da.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/ngv.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/hyd.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/tgd.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/nhf.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/cfs.jpg' %}" alt="This is an image">
+    <img src="{% static 'image/jcv.jpg' %}" alt="This is an image">
+    <p>
+    <a href="{% url 'servicesoffered_page' %}">services</a>
+    </p>
+    
+</body>
+</html>

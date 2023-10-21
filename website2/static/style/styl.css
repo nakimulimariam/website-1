@@ -1,0 +1,46 @@
+h1{
+    color: rgb(41, 41, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    color: rgb(216, 83, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    
+}
+h3{
+    color: rgb(58, 58, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+body{
+    background-color: rgb(247, 222, 245);
+}
+.c{
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    border-color: white,solid;
+}
+#sub{
+    color: white;
+    border-radius: 5px;
+    border: solid, white;
+}
+#menu-items li{
+    display: inline;
+    border-right: 2px,black,solid;
+    padding: 5px;
+    height: inherit;
+}
+#header-div{
+    padding: 5px;
+    border-left: 2px;
+    height: inherit;
+}
+button{
+    color: rgb(16, 16, 161);
+}
+
+    
